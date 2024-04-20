@@ -72,4 +72,5 @@ def index(singleMassage):
     my_reply = chain.invoke(singleMassage)
     return my_reply
 
-app.run(host='0.0.0.0', port=81)
+# app.run(host='0.0.0.0', port=81)
+app.run()
